@@ -1,0 +1,1 @@
+{"name":"Local: 23_7_infixToprefix","url":"d:\\algo\\23_7_infixToprefix.cpp","tests":[{"id":1626332466026,"input":"(a-b/c)*(a/k-l)","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\algo\\23_7_infixToprefix.cpp","group":"local","local":true}

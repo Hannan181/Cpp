@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int updateBit(int n,int pos,int num){
+    int mask=~(1<<pos);
+    n=n&(mask);
+    return ((num<<pos)|n);
+}
+ 
+int main(){
+   cout<<updateBit(5,1,1);
+return 0;
+}
