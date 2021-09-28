@@ -1,18 +1,17 @@
 #include<iostream>
+#include<vector>
 using namespace std;
  
- const int N=1e5+2;
- int dp[N];
- int fibb(int n){
-     if(n==0||n==1)return n;
-     if(n==2)return 1;
-     if(dp[n])return dp[n];
-     dp[n]=fibb(n-1)+fibb(n-2);
-     return dp[n];
- }
 int main(){
-   int n;
+   long n;
    cin>>n;
-    cout<<fibb(n);
+   vector<long long>dp(n+2,0);
+   dp[0]=0;
+   dp[1]=1;
+   dp[2]=1;
+   for(long long i=2;i<=n;i++){
+      dp[i]=dp[i-1]+dp[i-2];
+   }
+   cout<<dp[n]<<endl;
 return 0;
 }

@@ -1,0 +1,1 @@
+{"name":"Local: 15_shortestCommonSubsequence","url":"d:\\algo\\DP\\AV\\15_shortestCommonSubsequence.cpp","tests":[{"id":1632633412933,"input":"hann\nnan","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\algo\\DP\\AV\\15_shortestCommonSubsequence.cpp","group":"local","local":true}

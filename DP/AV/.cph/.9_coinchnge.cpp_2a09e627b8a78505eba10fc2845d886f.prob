@@ -1,0 +1,1 @@
+{"name":"Local: 9_coinchnge","url":"d:\\algo\\DP\\AV\\9_coinchnge.cpp","tests":[{"id":1631972284326,"input":"3 5 1 2 3","output":"5"},{"id":1631974361928,"input":"3 5 1 2 3","output":"5\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\algo\\DP\\AV\\9_coinchnge.cpp","group":"local","local":true}

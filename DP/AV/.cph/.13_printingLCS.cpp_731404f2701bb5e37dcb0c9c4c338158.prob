@@ -1,0 +1,1 @@
+{"name":"Local: 13_printingLCS","url":"d:\\algo\\DP\\AV\\13_printingLCS.cpp","tests":[{"id":1632460229429,"input":"naan\nan","output":"an"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\algo\\DP\\AV\\13_printingLCS.cpp","group":"local","local":true}

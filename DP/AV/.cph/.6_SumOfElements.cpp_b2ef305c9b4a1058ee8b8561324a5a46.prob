@@ -1,0 +1,1 @@
+{"name":"Local: 6_SumOfElements","url":"d:\\algo\\DP\\AV\\6_SumOfElements.cpp","tests":[{"id":1631728754281,"input":"5 3 4 2 5 7 2 5","output":"9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\algo\\DP\\AV\\6_SumOfElements.cpp","group":"local","local":true}

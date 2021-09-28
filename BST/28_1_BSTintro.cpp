@@ -1,5 +1,5 @@
 /*
-Time cmplexity-->O(log n)
+Time complexity-->O(log n)
 */
 #include <iostream>
 #include <stack>
