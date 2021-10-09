@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
  
-int dp[20][20]={-1};
+int dp[20][20];
 int LCS(string a, int m,string b,int n){
     if(dp[m][n]!=-1)return dp[m][n];
     if(m==0||n==0){
@@ -16,6 +16,7 @@ int LCS(string a, int m,string b,int n){
     return dp[m][n];
 }
 int main(){
+    memset(dp,-1,sizeof dp);
    string x,y;
    cin>>x>>y;
    cout<<LCS(x,x.length(),y,y.length());
